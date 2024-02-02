@@ -17,6 +17,6 @@ def test_model_correctness():
         "YearRemodAdd": 1978,
         "Exterior1st": "HdBoard",
         "BsmtFinSF2": 0,
-        "TotalBsmtSF": 672
+        "TotalBsmtSF": 672,
     }
     assert clf.predict(pd.DataFrame(data, index=[0]))[0] == 157551.3761237591
