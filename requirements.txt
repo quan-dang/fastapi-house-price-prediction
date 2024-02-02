@@ -6,3 +6,6 @@ scikit-learn==1.0.2
 pandas==1.4.4
 lightgbm==3.3.4
 pytest==7.1.2
+quan==1.0.0
+quandv==2.0.0
+duy==2.0.0
