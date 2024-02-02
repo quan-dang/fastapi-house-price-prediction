@@ -4,7 +4,6 @@ import pandas as pd
 # Define path to our model
 MODEL_DIR = "models"
 
-
 def test_model_correctness():
     clf = joblib.load(f"{MODEL_DIR}/model.pkl")
     data = {

@@ -9,7 +9,6 @@ from pydantic import BaseModel
 
 # Creating FastAPI instance
 app = FastAPI()
-
 # Creating class to define the request body
 # and the type hints of each attribute
 class HouseInfo(BaseModel):
